@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:ma_biblio/screens/catalogue_screen.dart';
 import 'screens/parametres_screen.dart';
 import 'models/livre.dart';
 import 'data/livres_data.dart';
@@ -64,7 +65,7 @@ class _HomePageState extends State<HomePage> {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const ParametresScreen(),
+                  builder: (context) => const CatalogueScreen(),
                 ),
               );
             },
